@@ -59,7 +59,7 @@ namespace AsyncClient
         }
         public static async void StartClient()
         {
-            using (client = new TcpClient("10.0.0.125", port))
+            using (client = new TcpClient("x.x.x.x", port))
             {
                 using (stream = client.GetStream())
                 {
